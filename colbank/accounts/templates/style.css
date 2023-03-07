@@ -1,4 +1,7 @@
 /*main page css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .main
 {margin:auto;
 background-image:url('./Img/kudi.jpg');
@@ -36,7 +39,7 @@ overflow: hidden;
     width: 80%;
     float: right;
    color: #03386D;
-   font-family: 'Inter';
+  
 font-style: normal;
 
 }
@@ -126,15 +129,15 @@ height: 27px;
 .p
 {
     margin-left: 40px;
-    font-family: arial;
+    
 }
 .p1{ margin-left: 73px;
-    font-family: arial;
+   
 
 }
 .p2{
     margin-left: 182px;
-    font-family: Arial, Helvetica, sans-serif;
+    
     margin-top: -21px;
     float: left;
 }
@@ -229,7 +232,7 @@ margin-top: 10px;
 .h2{
     text-align: center;
     margin-top:40px;
-    font-family: Arial, Helvetica, sans-serif;
+   
 }
 /*end login css*/
 
@@ -238,7 +241,7 @@ margin-top: 10px;
     margin: auto;
     overflow: hidden;
     background: linear-gradient( 180deg, rgba(203, 225, 238, 1),rgba(203, 225, 238, 0));
-    font-family: Arial, Helvetica, sans-serif;
+   
     width: 100%;
 }
 .left{
