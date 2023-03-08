@@ -2,7 +2,7 @@
 
 
 ### User Story 
-
+As a customer, I want to easily manage my finances by creating an account, depositing and withdrawing cash, transferring funds and viewing my account details, while allowing bank staff to access all customer accounts for efficient reportinhg and analysis.
 
 
 #  Acceptance Criteria
