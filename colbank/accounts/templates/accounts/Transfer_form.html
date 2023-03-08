@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="my-5 text-center ">
+<form action ='' method ='Post'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-primary my-5">Submit</button>
+</form>
+
+{% if form.errors %}
+  <div class="alert alert-danger my-5">
+    {{ form.errors.amount.as_text}}
+
+  </div>
+{% endif %}
+
+<a href='{% url 'dash-board' %}' class='btn btn-secondary'>Cancel</a>
+
+</div>
+
+
+{% endblock %}

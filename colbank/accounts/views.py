@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import CreateView
-from . models import Deposit
+from . models import Deposit, Withdrawal, Transfer
 from .forms import DepositForm
 
 # Create your views here.
@@ -18,6 +18,17 @@ class DepositCreateView(CreateView):
     model = Deposit
     form_class = DepositForm
     success_url ='/dashboard/'
+
+class WithdrawalCreateView(CreateView):
+    model = Withdrawal
+    form_class = DepositForm
+    success_url ='/dashboard/'
+
+class TransferCreateView(CreateView):
+    model = Transfer
+    form_class = DepositForm
+    success_url ='/dashboard/'
+    
     
 
 def about(request):

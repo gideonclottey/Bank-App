@@ -30,7 +30,7 @@ class Transfer(models.Model):
     date_created = models.DateField(auto_now_add=True)
 
 
-class Widthrawal(models.Model):
+class Withdrawal(models.Model):
 
      account_id = models.ForeignKey('Account', on_delete=models.CASCADE, null=True)
      amount = models.DecimalField(max_digits=8,decimal_places=2)

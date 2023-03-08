@@ -1,5 +1,5 @@
 from django.contrib import admin
-from . models import Account, Customer, Transfer ,  Widthrawal, Deposit
+from . models import Account, Customer, Transfer ,  Withdrawal, Deposit
 
 # Register your models here.
 
@@ -7,5 +7,5 @@ from . models import Account, Customer, Transfer ,  Widthrawal, Deposit
 admin.site.register(Account)
 admin.site.register(Customer)
 admin.site.register(Transfer)
-admin.site.register(Widthrawal)
+admin.site.register(Withdrawal)
 admin.site.register(Deposit)

@@ -21,5 +21,11 @@ urlpatterns = [
     path('', views.home, name='home.list'),
     path('dashboard/', views.dash_board, name='dash-board'),
      path('deposit/', views.DepositCreateView.as_view(), name='deposit.create'),
+<<<<<<< HEAD
      path('about/', views.about, name='about'),
+=======
+     path('withdrawal/', views.WithdrawalCreateView.as_view(), name='withdrawal.create'),
+     path('transfer/', views.WithdrawalCreateView.as_view(), name='transfer.create'),
+ 
+>>>>>>> 8ce336a0344f88b93b26731c6c00c1c946623555
 ]

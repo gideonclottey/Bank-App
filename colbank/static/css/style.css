@@ -379,4 +379,8 @@ margin-left: 110px;
         text-decoration: none;
         color: #000000;
     }
+
+    ul.errorlist {
+        display:none
+    }
 /*end main css*/
