@@ -1,0 +1,40 @@
+{% load static %}
+
+<html>
+    <head>
+       <link rel="stylesheet" href="{% static 'css/style.css'%}"> 
+       <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <style>
+        .main{
+            background-image:url('{% static 'img/kudi.jpg' %}');
+        }
+    </style>
+<div class="main">
+   <nav>
+    <div class="logo">
+        <img src="{% static 'img/2fc46daef08a3c03c8b4834a4e2317bd.png' %} "/>
+    </div>
+
+<div class="menu_list">
+<ul>
+    <li><a href="#" class="a">About us</a></li>
+    <li><a href="#" class="a"><i class="fa fa-phone"></i>Contact us</a></li>
+    <li><a href="#" class="a"><i class="fa fa-search"></i>Search</a></li>
+
+</ul>
+<button type="submit" value="input button" class="button"><a href="form.html" class="button">Register</a></button>
+<button type="submit" value="input button" class="button"><a href="login.html" class="button">Login</a></button>
+</div>
+</nav>
+
+    {% block content%}
+
+    {% endblock %}
+
+
+
+    </body>
+</html>

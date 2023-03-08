@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -16,13 +17,27 @@ class Account(models.Model):
         return self.account_number
 
 class Customer(models.Model):
-    pass
+     # Fields
+     user_name = models.CharField(max_length=32, help_text='Enter  username')
+     user_email = models.EmailField(max_length=254, help_text='Enter email address')
+     user= models.ForeignKey(User, on_delete=models.CASCADE)
+
 
 class Transfer(models.Model):
-    pass
+    sender_id = models.ForeignKey("Account", on_delete=models.CASCADE, related_name='Transfer')
+    receiver_id = models.ForeignKey("Account", on_delete=models.CASCADE)
+    amount = models.DecimalField(max_digits=10, decimal_places=2)
+    date_created = models.DateField(auto_now_add=True)
+
 
 class Widthrawal(models.Model):
-    pass
 
+     account_id = models.ForeignKey('Account', on_delete=models.CASCADE, null=True)
+     amount = models.DecimalField(max_digits=8,decimal_places=2)
+     date_created = models.DateField(auto_now_add=True)
+     
 class Deposit(models.Model):
-    pass
+    account_id = models.ForeignKey("Account", on_delete=models.CASCADE)
+    amount = models.DecimalField( max_digits=10, decimal_places=2)
+    date_created = models.DateField( auto_now_add=True)
+    
