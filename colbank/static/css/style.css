@@ -380,3 +380,7 @@ margin-left: 110px;
         color: #000000;
     }
 /*end main css*/
+.contact{
+    margin: 20px 160px;
+    overflow: hidden;
+}

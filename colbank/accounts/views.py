@@ -9,6 +9,15 @@ from .forms import DepositForm
 def home(request):
     return render(request, 'home_list.html', {})
 
+
+
+
+
+
+def contact_us(request):
+    return render(request, 'contact_us.html', {})
+
+
 def dash_board(request):
     return render(request, 'dashboard.html',{})
 
