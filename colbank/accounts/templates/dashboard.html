@@ -7,9 +7,9 @@
         <li><a href="1new page.html"><i class="fa fa-dashboard"></i>Dashboard</a></li>
         <li><i class="fa fa-ils"></i><a href="{% url 'transfer.create' %}">Payment</a><br>
        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transfer</li>
-        <li><i class="fa fa-money withdraw"></i><a href="{% url 'withdrawal.create' %}">Withdrawal</a><br>
+        <li><i class="fa fa-money withdraw"></i><a href="{% url 'withdrawal.create'  %}">Withdrawal</a><br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Cash</li>
-        <li><i class="fa fa-undo"></i>Transaction</li>
+        <li><i class="fa fa-undo"></i><a href="{% url 'transaction_list' pk=transaction.id %}">Payment</a></li>
         <li><i class="fa fa-money"></i><a href="{% url 'deposit.create' %}">Deposit</a><br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cash</li>
         <li><a href="1new page.html"><img src="img/126467.png"/>Logout </a></li>
