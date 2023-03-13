@@ -18,12 +18,13 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('register/', views.SignUpView.as_view(), name='register.create'),
-     path('login/', views.LoginInterfaceView.as_view(), name='login.create'),
-      path('logout/', views.LoginInterfaceView.as_view(), name='logout.create'),
+    path('register/', views.register_request, name='register.create'),
+     path('login/', views.login_request, name='login.create'),
+      path('logout/', views.logout_request, name='logout.create'),
      path('', views.home, name='home.list'),
     path('dashboard/', views.dash_board, name='dash-board'),
     path('deposit/', views.DepositCreateView.as_view(), name='deposit.create'),
+    path('account/', views.AccountCreation.as_view(), name='account.create'),
      path('about/', views.about, name='about'),
      path('withdrawal/', views.WithdrawalCreateView.as_view(), name='withdrawal.create'),
      path('transfer/', views.WithdrawalCreateView.as_view(), name='transfer.create'),

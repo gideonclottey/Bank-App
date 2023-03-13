@@ -2,7 +2,6 @@
 
 {% block content %}
 <div class="my-5 text-center ">
-      <h1 class="my-5 text-center">Withdrawal</h1>
 <form action ='' method ='Post'>
     {% csrf_token %}
     {{form.as_p}}
@@ -19,6 +18,5 @@
 <a href='{% url 'dash-board' %}' class='btn btn-secondary'>Cancel</a>
 
 </div>
-
 
 {% endblock %}

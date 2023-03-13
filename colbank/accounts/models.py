@@ -13,7 +13,7 @@ def random_string():
 
 class Account(models.Model):
     account_number = models.CharField(default=random_string, unique=True, max_length=10)
-    balance = models.DecimalField(max_digits=10, decimal_places=2)
+    balance = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
     customer = models.ForeignKey('Customer', on_delete=models.CASCADE)
 
     def __str__(self):
@@ -21,9 +21,12 @@ class Account(models.Model):
 
 class Customer(models.Model):
      # Fields
-     user_name = models.CharField(max_length=32, help_text='Enter  username')
-     user_email = models.EmailField(max_length=254, help_text='Enter email address')
+     first_name = models.CharField(max_length=32, help_text='Enter First Name')
+     last_name = models.CharField(max_length=254, help_text='Enter Last Name')
      user = models.OneToOneField(User,on_delete=models.CASCADE)
+
+     def __str__(self):
+         return self.user.username
 
 
 class Transfer(models.Model):
