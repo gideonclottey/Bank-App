@@ -79,7 +79,8 @@ class TransferCreateView(CreateView):
 def about(request):
     return render(request, 'about.html',{})
 
-
+def contact(request):
+    return render(request, 'contact.html',{})
 
 class CustomerTransactionView(TemplateView):
     template_name = 'dashboard.html'
