@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-02-21" view-index="2" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-02-23" view-index="1" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Name" width="200" order="0"/>
@@ -8,10 +8,13 @@
         <timeline>
             <![CDATA[10]]>
         </timeline>
+        <option id="color.recent">
+            <![CDATA[#000000 #ff0066 #00cc00 #ff3366]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Name" width="210" order="0"/>
-        <field id="1" name="Default role" width="86" order="1"/>
+        <field id="0" name="Name" width="206" order="0"/>
+        <field id="1" name="Default role" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,60 +40,60 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="15" name="Beta Release" color="#8cb6ce" meeting="false" start="2023-02-20" duration="9" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="false">
-            <task id="0" name="Sprint 1 plan" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
+        <task id="15" name="Beta Release SPRINT1" color="#ff0066" meeting="false" start="2023-02-20" duration="11" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Sprint 1 plan" color="#000000" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="1" type="2" difference="0" hardness="Strong"/>
                 <depend id="6" type="2" difference="0" hardness="Strong"/>
-                <task id="16" name="Creation of User Stories" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true"/>
-                <task id="12" name="kickoff meeting" color="#8cb6ce" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+                <task id="16" name="Creation of User Stories" color="#ff0066" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-03" thirdDate-constraint="0" expand="true"/>
+                <task id="12" name="kickoff meeting" color="#ff0066" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="1" name="Creation of  User Acceptance criteria" color="#8cb6ce" meeting="false" start="2023-02-21" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Creation of  User Acceptance criteria" color="#000000" meeting="false" start="2023-02-21" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
-                <task id="6" name="creation of story Cards" color="#8cb6ce" meeting="false" start="2023-02-21" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true"/>
+                <task id="6" name="creation of story Cards" color="#ff0066" meeting="false" start="2023-02-21" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="2" name="Plan Release" color="#8cb6ce" meeting="false" start="2023-02-23" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Plan Release" color="#ff0066" meeting="false" start="2023-02-23" duration="5" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="3" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="3" name="Develop/ Integrate/ Test" color="#8cb6ce" meeting="false" start="2023-02-28" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="false">
+            <task id="3" name="Develop/ Integrate/ Test" color="#000000" meeting="false" start="2023-03-02" duration="2" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="4" type="2" difference="0" hardness="Strong"/>
-                <task id="9" name="Pair Coding Backend" color="#8cb6ce" meeting="false" start="2023-02-28" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
-                <task id="11" name="PairCodinf UI/UX" color="#8cb6ce" meeting="false" start="2023-02-28" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
-                <task id="10" name="Test first" color="#8cb6ce" meeting="false" start="2023-02-28" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="Pair Coding Backend" color="#ff0066" meeting="false" start="2023-03-02" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="PairCodinf UI/UX" color="#ff0066" meeting="false" start="2023-03-02" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+                <task id="10" name="Test first" color="#ff0066" meeting="false" start="2023-03-02" duration="2" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="4" name="Release beta version" color="#8cb6ce" meeting="true" start="2023-03-02" duration="0" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Release beta version" color="#00cc00" meeting="true" start="2023-03-06" duration="0" complete="0" thirdDate="2023-02-21" thirdDate-constraint="0" expand="true">
                 <depend id="5" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="5" name="Evaluate System" color="#8cb6ce" meeting="false" start="2023-03-02" duration="1" complete="0" thirdDate="2023-02-23" thirdDate-constraint="0" expand="true">
-                <task id="7" name="Recieve customer feedback" color="#8cb6ce" meeting="false" start="2023-03-02" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Evaluate System" color="#000000" meeting="false" start="2023-03-06" duration="1" complete="0" thirdDate="2023-02-23" thirdDate-constraint="0" expand="true">
+                <task id="7" name="Recieve customer feedback" color="#8cb6ce" meeting="false" start="2023-03-06" duration="1" complete="0" thirdDate="2023-02-08" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
-        <task id="17" name="version1 Release" color="#8cb6ce" meeting="false" start="2023-03-03" duration="6" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
-            <task id="18" name="Sprint 2 plan" color="#8cb6ce" meeting="false" start="2023-03-03" duration="1" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+        <task id="17" name="version1 Release  SPRINT2" color="#8cb6ce" meeting="false" start="2023-03-07" duration="9" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <task id="18" name="Sprint 2 plan" color="#8cb6ce" meeting="false" start="2023-03-07" duration="1" complete="0" thirdDate="2023-03-03" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                 <depend id="23" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="23" name="Plan Release" color="#8cb6ce" meeting="false" start="2023-03-06" duration="2" complete="0" thirdDate="2023-03-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <task id="23" name="Plan Release" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-03-08" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                 <depend id="24" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="24" name="Develop/ Integrate/ Test" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <task id="24" name="Develop/ Integrate/ Test" color="#8cb6ce" meeting="false" start="2023-03-10" duration="5" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
                 <depend id="28" type="2" difference="0" hardness="Strong"/>
-                <task id="25" name="Pair Coding Backend" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true"/>
-                <task id="26" name="PairCodinf UI/UX" color="#8cb6ce" meeting="false" start="2023-03-08" duration="1" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-                <task id="27" name="Test first" color="#8cb6ce" meeting="false" start="2023-03-08" duration="2" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="25" name="Pair Coding Backend" color="#8cb6ce" meeting="false" start="2023-03-10" duration="5" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true"/>
+                <task id="26" name="PairCodinf UI/UX" color="#8cb6ce" meeting="false" start="2023-03-10" duration="5" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="27" name="Test first" color="#8cb6ce" meeting="false" start="2023-03-16" duration="1" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
             </task>
-            <task id="28" name="Release version 1" color="#8cb6ce" meeting="true" start="2023-03-10" duration="0" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true">
+            <task id="28" name="Release version 1" color="#00cc00" meeting="true" start="2023-03-17" duration="0" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true">
                 <depend id="29" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="29" name="Evaluate System" color="#8cb6ce" meeting="false" start="2023-03-10" duration="1" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true">
-                <task id="30" name="Recieve customer feedback" color="#8cb6ce" meeting="false" start="2023-03-10" duration="1" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true"/>
+            <task id="29" name="Evaluate System" color="#8cb6ce" meeting="false" start="2023-03-17" duration="1" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true">
+                <task id="30" name="Recieve customer feedback" color="#8cb6ce" meeting="false" start="2023-03-17" duration="1" complete="0" thirdDate="2023-03-15" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
     </tasks>
     <resources>
-        <resource id="0" name="oz" function="Default:0" contacts="" phone=""/>
-        <resource id="1" name="Gideon" function="Default:0" contacts="" phone=""/>
-        <resource id="2" name="Godswill" function="Default:0" contacts="" phone=""/>
-        <resource id="3" name="Narinder" function="Default:0" contacts="" phone=""/>
-        <resource id="4" name="Sonia" function="Default:0" contacts="" phone=""/>
+        <resource id="0" name="oz" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Gideon" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="Godswill" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="Narinder" function="SoftwareDevelopment:5" contacts="" phone=""/>
+        <resource id="4" name="Sonia" function="SoftwareDevelopment:5" contacts="" phone=""/>
     </resources>
     <allocations>
         <allocation task-id="10" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
