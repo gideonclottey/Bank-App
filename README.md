@@ -1,6 +1,6 @@
 # Bank-App
- - This a simple bank app created my a team of five with respect to our advance software
-    engineering assigment. This project was completed in python leveraging the  Django framework 
+ - This is a simple bank app created my a team of five with respect to our advance software
+    engineering assigment. This project was completed in python leveraging the  Django framework, HTML and Bootstrap5.
 
 ### User Story 
 As a customer, I want to easily manage my finances by creating an account, depositing and withdrawing cash, transferring funds and viewing my account details, while allowing bank staff to access all customer accounts for efficient reportinhg and analysis.
