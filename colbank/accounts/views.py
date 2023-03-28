@@ -10,6 +10,7 @@ from django.contrib.auth.forms import AuthenticationForm
 
 # Create your views here.
 
+# registeration logi
 
 def register_request(request):
 	if request.method == "POST":
@@ -23,6 +24,7 @@ def register_request(request):
 	form = NewUserForm()
 	return render (request=request, template_name="accounts/register.html", context={"register_form":form})
 
+# login goes here
 def login_request(request):
 	if request.method == "POST":
 		form = AuthenticationForm(request, data=request.POST)
@@ -41,11 +43,14 @@ def login_request(request):
 	form = AuthenticationForm()
 	return render(request=request, template_name="accounts/login.html", context={"login_form":form})
 
+
+# logout logic
 def logout_request(request):
 	logout(request)
 	messages.info(request, "You have successfully logged out.")
 	return redirect("home.list")
 
+# account creation 
 
 class AccountCreation(CreateView):
     model = Account
@@ -82,6 +87,7 @@ def about(request):
 def contact(request):
     return render(request, 'contact.html',{})
 
+# logic for transactions 
 class CustomerTransactionView(TemplateView):
     template_name = 'dashboard.html'
 
