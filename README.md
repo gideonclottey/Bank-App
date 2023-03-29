@@ -1,7 +1,6 @@
 # City of Lincoln Bank-App
 
-![logo](https://user-images.githubusercontent.com/99620725/228639861-99ef5258-0aec-41d2-9700-c6c25e1f4d5d.png)
-
+![logo(2)](https://user-images.githubusercontent.com/99620725/228640614-71967adf-84ad-4ce6-8ce6-20c71a90cc6a.png)
  - This is a simple bank app created by a team of five with respect to our advance software 
     engineering assigment. This project was completed in Python leveraging the  Django framework, HTML and Bootstrap5.
 
