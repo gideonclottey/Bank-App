@@ -1,19 +1,22 @@
-<html>
-    <head>
-<link href="./style.css" rel="stylesheet">
+<! -- In this example, we're using Django's built-in csrf_token template tag to prevent cross-site request 
+forgery attacks. We're also displaying an error message if the login credentials are invalid. 
+The form itself contains two input fields, one for the username and one for the password, 
+and a submit button. -->
 
-    </head>
-    <body>
-        <div class="log">
-
-            <h2 class="h2"> User Name</h2>
-            <input type="text" class="un"/>
-            <h2 class="h2">Password</h2>
-            <input type="password" value="FakePSW" id="myInput" class="un"/>
-            <div class="bt1">
-               
-            <button type="submit" value="input button" class="login"><a href="main.html" class="bt2"><p>Login</p></a></button>
-            </div>
-        </div>
-    </body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Login</h2>
+  {% if error %}
+    <p class="error">{{ error }}</p>
+  {% endif %}
+  <form method="post">
+    {% csrf_token %}
+    <label for="username">Username:</label>
+    <input type="text" name="username" required>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <br>
+    <button type="submit">Login</button>
+  </form>
+{% endblock %}
