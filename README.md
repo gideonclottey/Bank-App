@@ -2,7 +2,9 @@
 
 ![logo(2)](https://user-images.githubusercontent.com/99620725/228640614-71967adf-84ad-4ce6-8ce6-20c71a90cc6a.png)
  - This is a simple bank app created by a team of five with respect to our advance software 
-    engineering assigment. This project was completed in Python leveraging the  Django framework, HTML and Bootstrap5.
+    engineering assigment. This project was completed in Python leveraging the  Django framework, HTML and Bootstrap5, crispy form.
+    credit: [Python](https://www.python.org/), [Django](https://www.djangoproject.com/), [Figma](https://www.figma.com/), 
+    [Bootstrap](https://getbootstrap.com/), [PyPi](https://pypi.org/), [Visual Studio Code]
 
 ### User Story 
 As a customer, I want to easily manage my finances by creating an account, depositing and withdrawing cash, transferring funds and viewing my account details, while allowing bank staff to access all customer accounts for efficient reporting and analysis.
