@@ -72,4 +72,11 @@ The application should be able to allow to bank staff to view account details of
 - After dependencies are installed, run the server again and click on the url in the command line
   and your bank app will be live.
 
- 
+# Team Members
+- [@gideonclottey](https://github.com/gideonclottey)
+- [@Dev-Godswill](https://github.com/Dev-Godswill)
+- [@ozomata](https://github.com/ozomata)
+- [@narinder-bit](https://github.com/narinder-bit)
+- [@Sonia-devi](https://github.com/Sonia-devi)
+
+
